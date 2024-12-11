@@ -1,0 +1,139 @@
+/* Жалпы стильдер */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+}
+
+/* Баннер */
+.banner {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('iphone13-banner.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.banner h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1.2em;
+}
+
+/* Сипаттамалар */
+.product-details {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+.product-details h2 {
+    color: #333;
+}
+
+.product-details ul {
+    list-style-type: disc;
+    margin: 10px 0 20px 20px;
+    padding: 0;
+    color: #555;
+}
+
+.product-details ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.product-details button {
+    padding: 10px 20px;
+    background-color: #007aff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.product-details button:hover {
+    background-color: #005bb5;
+}
+
+/* Галерея */
+.gallery {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery h2 {
+    margin-bottom: 20px;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery-images img {
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+/* Байланыс */
+.contact {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}

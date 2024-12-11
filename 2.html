@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | Интернет-магазин Айфон</title>
+    <style>
+        /* Основные стили для страницы Контакты */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #007BFF;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        header .logo a {
+            text-decoration: none;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        header nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Контактная информация */
+        .contact-info {
+            padding: 20px;
+            background-color: white;
+            margin: 20px auto;
+            max-width: 1000px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-method h2 {
+            color: #007BFF;
+        }
+
+        .contact-method p {
+            font-size: 18px;
+        }
+
+        /* Форма контактов */
+        form {
+            margin-top: 20px;
+        }
+
+        form label {
+            display: block;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        form button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Картинка с локацией */
+        iframe {
+            width: 100%;
+            border: 0;
+            margin-top: 20px;
+            height: 450px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #007BFF;
+            padding: 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <a href="#">apples</a>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Поиск..." class="search-bar">
+            <button class="search-btn">Поиск</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Меню</a>
+                    <ul class="dropdown">
+                        <li><a href="12.html">iPhone 12</a></li>
+                        <li><a href="13.html">iPhone 13</a></li>
+                        <li><a href="#">iPhone 14</a></li>
+                        <li><a href="#">Аксессуары</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <section class="contact-info">
+        <h1>Контактная информация</h1>
+        <p>Если у вас есть вопросы, вы можете связаться с нами с помощью следующих способов:</p>
+
+        <div class="contact-details">
+            <div class="contact-method">
+                <h2>Наш адрес</h2>
+                <p>Достык 89, 050091 Алматы, Казахстан</p>
+            </div>
+
+            <div class="contact-method">
+                <h2>Телефон</h2>
+                <p>+77013244141</p>
+                <p>+77013244141</p>
+            </div>
+
+            <div class="contact-method">
+                <h2>Email</h2>
+                <p>info@apples.kz</p>
+            </div>
+        </div>
+
+        <!-- Contact Form Section -->
+        <h2>Напишите нам</h2>
+        <form action="#" method="post">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Ваш email" required>
+
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" placeholder="Ваше сообщение" required></textarea>
+
+            <button type="submit">Отправить</button>
+        </form>
+
+        <!-- Map Section (Google Map Embed) -->
+        <h2>Наша локация</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=...&q=Almaty" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Apples.kz. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
